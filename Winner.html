@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winner!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>
+            <button id="prize">WINNER!</button>  
+            </h1>
+            <h2>Click to view your prize</h2>
+          </div>
+
+          <div class="center">
+            <button id="retry">Retry!</button>
+          </div>
+
+        </div>
+      </div>
+      
+      <style>
+
+        body {
+            background-image: url('win.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        h1 {
+    padding: 100px;
+    color: rgba(250, 250, 32, 0.721);
+  }  
+        
+        </style>   
+
+
+<script>
+  document.getElementById("prize").addEventListener("click", function()
+        {
+            window.open('https://www.youtube.com/watch?v=G59JnM4JKNQ&t=1s', '_blank');
+        });
+  document.getElementById("retry").addEventListener("click", function()
+        {
+            window.location.href = "index2.html";
+        });
+</script>
+</body>
+
+</html>
+<!-- <h1>WIIINNER!</h1>
+</div>
+
+<div class="center">
+  <a href="https://youtu.be/EnQGSwtjh6A?t=3"><button>CLAIM YOUR PRIZE</button></a> -->

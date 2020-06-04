@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sahitya:wght@700&display=swap');
+
+
+button {
+    color: blanchedalmond;
+    border-radius: 26px;
+    background: linear-gradient(145deg, #dbb375, #b99662);
+    box-shadow:  10px 10px 20px #ae8e5d, 
+                 -10px -10px 20px #ecc07d;
+    border: none;
+    padding: 11px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family:'Sahitya', serif;;                              
+}
+
+.center { 
+    color: blanchedalmond;   
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+div.row {
+    padding-left: 70px;
+    padding-right: 60px;
+}
+
+div.col {
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+H1 {
+    text-align: center;
+    color: blanchedalmond;
+    font-family:'Sahitya', serif;;
+    font-size: 60px;
+}
+
+H2 {
+    text-align: center;
+    color: blanchedalmond;
+    font-family:'Sahitya', serif;;
+}
+
+label {
+    font-family: 'Sahitya', serif;;
+}

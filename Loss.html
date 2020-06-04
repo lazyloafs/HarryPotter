@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loss</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>GAME OVER</h1>
+            <h1><button id="prize">Prize!</button></h1>
+          </div>
+          <div class="center">
+            <button id="retry">Retry</button>
+          </div>
+
+       </div>
+    </div>
+      
+
+      <style>
+
+body {
+      background-image: url('lose.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+     }
+
+     h1 {
+    padding: 10px;
+    color: #ae8e5d;
+  }  
+
+     </style>
+<script>
+  document.getElementById("prize").addEventListener("click", function()
+        {
+            window.open('https://www.youtube.com/watch?v=EH4keQD_ecY', '_blank');
+        });
+  document.getElementById("retry").addEventListener("click", function()
+        {
+            window.location.href = "index2.html";
+        });
+</script>
+</body>
+
+</html>
+
+<!-- <a href="https://youtu.be/Yn_uHvb5vPQ"><button>PLAY AGAIN?</button></a> -->

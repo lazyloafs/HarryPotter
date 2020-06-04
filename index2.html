@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fight!</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <label for="">HP</label>
+    
+    <progress min=0 max=100 value=100 name=hel id="bossHP"></progress>
+    <label for="">SH</label>
+    <progress min=0 max=100 value=0 name=hel id="bossShield"></progress>
+    <br>
+    <img id="bossPic" src="https://media2.giphy.com/media/oGD3yIWPUdbri/200.gif?cid=e1bb72ffd92c5cd1f3f017d68f026e6ece79a66c721591d7&amp;rid=200.gif">
+    <br>
+    <br>
+    
+    <label id="turn" for="">Your turn!</label>
+
+
+    <br>
+    <br>
+
+
+    <br>
+    <br>
+    <label for="">HP</label>
+
+    <progress min=0 max=100 value=100 name=hel id="playerHP"></progress>
+    <label for="">SH</label>
+    <progress min=0 max=100 value=0 name=hel id="playerShield"></progress>
+    <br>
+    <img id="playerPic" src="">
+    <div id="gifs-appear-here" data-person="Harry Potter"></div>
+    <br>
+    <br>
+
+    <button id = "attackPlayer" type="button">Attack</button>
+    <button id = "healPlayer" type="button">Heal</button>
+    <button id = "shieldPlayer" type="button">Shield</button>
+    <button id = "randomSpellPlayer" type="button">Random</button>
+    <br>
+    <br>
+    
+
+<!-- <button id = "test2" type="button">Click Me!</button>
+<br>
+<br>
+<button id = "test" type="button">Click Me!</button> -->
+<!-- <button id = "test3" data-person="harry potter" type="button">Click Me!</button>
+<label id="characters"for=""></label>
+<div id="gifs-appear-here"></div> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="script.js"></script>
+    <script src="api.js"></script>
+<!-- <script type="text/javascript">
+   
+</script> -->
+    <style>
+
+
+        #bossHP {
+            background-color: green;
+        }
+
+        #playerHP {
+            background-color: green;        
+        }
+
+        body {
+            padding: 150px;
+            font-size: 22px;
+            color: blanchedalmond;
+            font-weight: 300;
+            text-align: center;
+            background-image: url('fight.jpg'); 
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+         }
+    
+    </style>
+
+</body>
+</html>
